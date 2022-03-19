@@ -34,6 +34,16 @@
   font-size: 0.9rem;
 }
 
+.title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
 .channel {
   font-size: 0.8rem;
+  color: #757575;
+  margin-top: 0.6em;
 }

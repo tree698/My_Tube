@@ -14,12 +14,12 @@ function App({ youtube }) {
   };
 
   useEffect(() => {
-    youtube
-      .mostPopular() //
-      .than((videos) => setVideos(videos));
+    // youtube
+    //   .mostPopular() //
+    //   .than((videos) => setVideos(videos));
 
-    //In case of exceeding the API Quota
-    // setVideos(items.items);
+    // In case of exceeding the API Quota
+    setVideos(items.items);
   }, []);
 
   return (
