@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  height: 5.4rem;
+  padding: 1.2em 1.5em;
+  margin-top: 0.8em;
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 1em;
+}
+
+img {
+  margin-right: 0.6em;
+}
+
+.input {
+  flex-basis: 100%;
+  font-size: 1.2rem;
+  outline: none;
+  border-radius: 6px;
+  padding: 0 0.4em;
+}
+
+.button {
+  background-color: darkgray;
+  margin-left: 0.4em;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 250ms ease-in;
+}
+
+.button:hover {
+  transform: scale(1.08);
+}
+
+.buttonImg {
+  padding: 0.5em 0.2em;
+  height: 100%;
+}
