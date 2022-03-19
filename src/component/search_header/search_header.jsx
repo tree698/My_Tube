@@ -1,10 +1,11 @@
 import React, { useRef } from 'react';
 import styles from './search_header.module.css';
 
-const SearchHeader = (props) => {
+const SearchHeader = ({ onSearch }) => {
   const inputRef = useRef();
   const handleSearch = () => {
-    console.log('yes');
+    const value = inputRef.current.value;
+    onSearch(value);
   };
   const handleClick = () => {
     handleSearch();
