@@ -5,3 +5,10 @@
   margin: 0;
   list-style: none;
 }
+
+/* See video_item.module.css */
+/* @media screen and (max-width: 48rem) {
+  .videos {
+    flex-direction: column;
+  }
+} */

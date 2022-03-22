@@ -54,3 +54,10 @@
   color: #757575;
   margin-top: 0.6em;
 }
+
+/* Why doesn't the below work? */
+/* @media screen and (max-width: 48rem) {
+  .container {
+    width: 100%;
+  }
+} */
