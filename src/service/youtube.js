@@ -8,7 +8,7 @@ class Youtube {
       params: {
         part: 'snippet',
         chart: 'mostPopular',
-        maxResults: 14,
+        maxResults: 20,
       },
     });
     return response.data.items;
