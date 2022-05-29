@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './video_item.module.css';
 
-const VideoItem = ({ video, onClickVideo, display }) => {
+const VideoItem = ({ video, video: { snippet }, onClickVideo, display }) => {
   const displayType = display === 'grid' ? styles.grid : styles.list;
 
   return (
@@ -12,12 +12,15 @@ const VideoItem = ({ video, onClickVideo, display }) => {
       <div className={styles.video}>
         <img
           className={styles.thumbnail}
-          src={video.snippet.thumbnails.high.url}
+          src={snippet.thumbnails.high.url}
           alt="video thumbnail"
         />
         <div className={styles.metadata}>
-          <p className={styles.title}>{video.snippet.title}</p>
-          <p className={styles.channel}>{video.snippet.channelTitle}</p>
+          <p className={styles.title}>{snippet.title}</p>
+          <p className={styles.channel}>{snippet.channelTitle}</p>
+          <p className={styles.date}>
+            {snippet.publishedAt.match(/\d{4}-\d{2}-\d{2}/)}
+          </p>
         </div>
       </div>
     </li>
