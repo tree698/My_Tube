@@ -64,9 +64,8 @@
   margin-top: 0.3em;
 }
 
-/* Why doesn't the below work? */
-/* @media screen and (max-width: 48rem) {
-  .container {
+@media screen and (max-width: 48rem) {
+  .container.grid {
     width: 100%;
   }
-} */
+}
