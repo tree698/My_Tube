@@ -19,8 +19,8 @@ React, JavaScript, PostCSS, Postman, HTML, CSS and YouTube Data API
 |v1.0.0|![MyTube](https://user-images.githubusercontent.com/53497516/159601730-dfeac963-4441-472f-80e5-b800172d6fe6.gif)
 |
 
-## 🌟 Deployment - Netlify
-### [MyTube](https://mytube-tree698.netlify.app)
+## 🌟 Deployment
+### [https://mytube-tree698.netlify.app](https://mytube-tree698.netlify.app)
 
 
 ## 🌟 To be added features
