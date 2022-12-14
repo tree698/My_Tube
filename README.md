@@ -1,6 +1,6 @@
 # MyTube
 ## 🌟 What is it?
-It is a customized YouTube app.
+It is a customized YouTube app to my personal taste.
 </br>
 ## 🌟 Why did I make this?
 To demonstrate my coding skills.
